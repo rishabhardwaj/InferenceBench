@@ -1,6 +1,6 @@
 # InferenceBench
 
-[Open the running application locally](http://localhost:8501)
+[Open the running application ](https://explicitly-constant-ind-sonic.trycloudflare.com)
 
 InferenceBench is a reproducible evaluation harness for choosing a DigitalOcean Serverless Inference model for high-volume GitHub issue classification. It uses `digitalocean/doctl` as a representative repository-level workload and keeps the evidence needed to explain the resulting recommendation.
 
