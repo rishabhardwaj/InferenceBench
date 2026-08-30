@@ -1,0 +1,222 @@
+{
+  "schema_version": "candidate_screening_dispositions.v1",
+  "baseline_version": "candidate-screening-timeboxed-v1",
+  "plan_sha256": "061f869e27b23fda423b68926b54726e1e4adea36214899dae4ad39a523b6fec",
+  "candidate_evidence_sha256": "7b858cd00854882a99e58146f928fc8f967d2ff777213555031543861e9ceb87",
+  "bootstrap_analysis_sha256": "a572780d79001b387a16890bb7e229428b52155a1391ea41f9e841e484dd2d6d",
+  "candidate_count": 25,
+  "dispositions": [
+    {
+      "model_id": "deepseek-3.2",
+      "disposition": "retained",
+      "reason": "No single comparable model satisfies every conservative screening safeguard with a bootstrap-supported advantage.",
+      "comparator_model_id": null,
+      "dominance_evidence": null
+    },
+    {
+      "model_id": "deepseek-4-flash",
+      "disposition": "retained",
+      "reason": "No single comparable model satisfies every conservative screening safeguard with a bootstrap-supported advantage.",
+      "comparator_model_id": null,
+      "dominance_evidence": null
+    },
+    {
+      "model_id": "deepseek-v4-flash-0731",
+      "disposition": "retained",
+      "reason": "No single comparable model satisfies every conservative screening safeguard with a bootstrap-supported advantage.",
+      "comparator_model_id": null,
+      "dominance_evidence": null
+    },
+    {
+      "model_id": "deepseek-v4-pro",
+      "disposition": "retained",
+      "reason": "No single comparable model satisfies every conservative screening safeguard with a bootstrap-supported advantage.",
+      "comparator_model_id": null,
+      "dominance_evidence": null
+    },
+    {
+      "model_id": "deepseek-v4-pro-0813",
+      "disposition": "retained",
+      "reason": "No single comparable model satisfies every conservative screening safeguard with a bootstrap-supported advantage.",
+      "comparator_model_id": null,
+      "dominance_evidence": null
+    },
+    {
+      "model_id": "gemma-4-31B-it",
+      "disposition": "retained",
+      "reason": "No single comparable model satisfies every conservative screening safeguard with a bootstrap-supported advantage.",
+      "comparator_model_id": null,
+      "dominance_evidence": null
+    },
+    {
+      "model_id": "glm-5",
+      "disposition": "not_comparable",
+      "reason": "Candidate cost completeness is not complete; apparent cheapness cannot dominate.",
+      "comparator_model_id": null,
+      "dominance_evidence": null
+    },
+    {
+      "model_id": "glm-5.1",
+      "disposition": "not_comparable",
+      "reason": "Candidate cost completeness is not complete; apparent cheapness cannot dominate.",
+      "comparator_model_id": null,
+      "dominance_evidence": null
+    },
+    {
+      "model_id": "glm-5.2",
+      "disposition": "retained",
+      "reason": "No single comparable model satisfies every conservative screening safeguard with a bootstrap-supported advantage.",
+      "comparator_model_id": null,
+      "dominance_evidence": null
+    },
+    {
+      "model_id": "glm-5.3-flash",
+      "disposition": "not_comparable",
+      "reason": "Candidate cost completeness is not complete; apparent cheapness cannot dominate.",
+      "comparator_model_id": null,
+      "dominance_evidence": null
+    },
+    {
+      "model_id": "kimi-k2.5",
+      "disposition": "not_comparable",
+      "reason": "Candidate cost completeness is not complete; apparent cheapness cannot dominate.",
+      "comparator_model_id": null,
+      "dominance_evidence": null
+    },
+    {
+      "model_id": "kimi-k2.6",
+      "disposition": "not_comparable",
+      "reason": "Candidate cost completeness is not complete; apparent cheapness cannot dominate.",
+      "comparator_model_id": null,
+      "dominance_evidence": null
+    },
+    {
+      "model_id": "kimi-k3",
+      "disposition": "not_comparable",
+      "reason": "Candidate cost completeness is not complete; apparent cheapness cannot dominate.",
+      "comparator_model_id": null,
+      "dominance_evidence": null
+    },
+    {
+      "model_id": "llama-4-maverick",
+      "disposition": "screened_out",
+      "reason": "One same comparator is no worse on every frozen screening dimension and has a bootstrap-supported advantage.",
+      "comparator_model_id": "deepseek-v4-flash-0731",
+      "dominance_evidence": {
+        "comparator_model_id": "deepseek-v4-flash-0731",
+        "candidate_accuracy": 0.775,
+        "comparator_accuracy": 0.9,
+        "candidate_supported_class_macro_f1": 0.705982905982906,
+        "comparator_supported_class_macro_f1": 0.7757343550446999,
+        "candidate_cost_per_correct_usd": "0.0002143938064516129032258064516",
+        "comparator_cost_per_correct_usd": "0.00006053477777777777777777777778",
+        "candidate_invalid_output_rate": 0.0,
+        "comparator_invalid_output_rate": 0.0,
+        "candidate_request_error_rate": 0.0,
+        "comparator_request_error_rate": 0.0,
+        "candidate_exact_output_rate": 1.0,
+        "comparator_exact_output_rate": 1.0,
+        "per_class_precision_and_recall_no_worse": true,
+        "bootstrap_supported_advantages": [
+          "cost_per_correct"
+        ]
+      }
+    },
+    {
+      "model_id": "mimo-v2.5-pro",
+      "disposition": "not_comparable",
+      "reason": "Candidate cost completeness is not complete; apparent cheapness cannot dominate.",
+      "comparator_model_id": null,
+      "dominance_evidence": null
+    },
+    {
+      "model_id": "minimax-m2.5",
+      "disposition": "retained",
+      "reason": "No single comparable model satisfies every conservative screening safeguard with a bootstrap-supported advantage.",
+      "comparator_model_id": null,
+      "dominance_evidence": null
+    },
+    {
+      "model_id": "mistral-3-14B",
+      "disposition": "retained",
+      "reason": "No single comparable model satisfies every conservative screening safeguard with a bootstrap-supported advantage.",
+      "comparator_model_id": null,
+      "dominance_evidence": null
+    },
+    {
+      "model_id": "nemotron-3-nano-omni",
+      "disposition": "screened_out",
+      "reason": "One same comparator is no worse on every frozen screening dimension and has a bootstrap-supported advantage.",
+      "comparator_model_id": "deepseek-v4-flash-0731",
+      "dominance_evidence": {
+        "comparator_model_id": "deepseek-v4-flash-0731",
+        "candidate_accuracy": 0.875,
+        "comparator_accuracy": 0.9,
+        "candidate_supported_class_macro_f1": 0.756084656084656,
+        "comparator_supported_class_macro_f1": 0.7757343550446999,
+        "candidate_cost_per_correct_usd": "0.0007170657142857142857142857143",
+        "comparator_cost_per_correct_usd": "0.00006053477777777777777777777778",
+        "candidate_invalid_output_rate": 0.0,
+        "comparator_invalid_output_rate": 0.0,
+        "candidate_request_error_rate": 0.0,
+        "comparator_request_error_rate": 0.0,
+        "candidate_exact_output_rate": 0.0,
+        "comparator_exact_output_rate": 1.0,
+        "per_class_precision_and_recall_no_worse": true,
+        "bootstrap_supported_advantages": [
+          "cost_per_correct"
+        ]
+      }
+    },
+    {
+      "model_id": "nemotron-3-ultra-550b",
+      "disposition": "not_comparable",
+      "reason": "Candidate cost completeness is not complete; apparent cheapness cannot dominate.",
+      "comparator_model_id": null,
+      "dominance_evidence": null
+    },
+    {
+      "model_id": "nemotron-nano-12b-v2-vl",
+      "disposition": "not_comparable",
+      "reason": "Candidate cost completeness is not complete; apparent cheapness cannot dominate.",
+      "comparator_model_id": null,
+      "dominance_evidence": null
+    },
+    {
+      "model_id": "nvidia-nemotron-3-super-120b",
+      "disposition": "not_comparable",
+      "reason": "Candidate cost completeness is not complete; apparent cheapness cannot dominate.",
+      "comparator_model_id": null,
+      "dominance_evidence": null
+    },
+    {
+      "model_id": "openai-gpt-oss-20b",
+      "disposition": "retained",
+      "reason": "No single comparable model satisfies every conservative screening safeguard with a bootstrap-supported advantage.",
+      "comparator_model_id": null,
+      "dominance_evidence": null
+    },
+    {
+      "model_id": "openai-gpt-oss-120b",
+      "disposition": "not_comparable",
+      "reason": "Candidate cost completeness is not complete; apparent cheapness cannot dominate.",
+      "comparator_model_id": null,
+      "dominance_evidence": null
+    },
+    {
+      "model_id": "qwen3.5-397b-a17b",
+      "disposition": "not_comparable",
+      "reason": "Candidate cost completeness is not complete; apparent cheapness cannot dominate.",
+      "comparator_model_id": null,
+      "dominance_evidence": null
+    },
+    {
+      "model_id": "qwen3.8-max",
+      "disposition": "not_comparable",
+      "reason": "Candidate cost completeness is not complete; apparent cheapness cannot dominate.",
+      "comparator_model_id": null,
+      "dominance_evidence": null
+    }
+  ],
+  "content_sha256": "34eccbe667aaf860400d02966245ec1f77d2832f0a3bee906e1cd1401a4bd2fe"
+}

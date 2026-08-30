@@ -1,0 +1,33 @@
+{
+  "schema_version": "corpus_manifest.v1",
+  "corpus_version": "fixture-corpus-v1",
+  "repository": "digitalocean/doctl",
+  "endpoint_url": "https://api.github.com/repos/digitalocean/doctl/issues",
+  "query_parameters": {
+    "state": "all",
+    "per_page": "100"
+  },
+  "github_api_version": "2026-03-10",
+  "retrieval_started_at": "2026-08-10T00:00:00Z",
+  "retrieval_completed_at": "2026-08-10T00:00:01Z",
+  "page_count": 1,
+  "api_object_count": 7,
+  "excluded_pull_request_count": 0,
+  "artifact_file": "issues.jsonl",
+  "artifact_sha256": "96c91b49ada6710bb8a2f451e1b9f62564bb9b64bcd85156fdda275f01602a5d",
+  "artifact_byte_count": 4510,
+  "issue_count": 7,
+  "ordered_issue_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "ordering": "issue_number_ascending",
+  "serialization": "utf-8-json-lines-field-order-compact-lf",
+  "pagination": "github-link-header-until-exhaustion"
+}
+

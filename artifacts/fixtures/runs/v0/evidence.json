@@ -1,0 +1,251 @@
+{
+  "schema_version": "fixture_run_bundle.v1",
+  "default_run_ids": [
+    "fixture-run-model-a",
+    "fixture-run-model-b"
+  ],
+  "runs": [
+    {
+      "schema_version": "run_manifest.v1",
+      "run_id": "fixture-run-model-a",
+      "run_type": "fixture_saved_comparison",
+      "model_id": "fixture-model-a",
+      "provider_endpoint_id": "fixture-digitalocean-compatible",
+      "status": "complete",
+      "corpus_version": "fixture-corpus-v0",
+      "corpus_sha256": "3be8d4d4c95ac971be55620dafda3cac7a2a469e73b1498335045d51182441c7",
+      "ordered_issue_numbers": [1],
+      "issue_order_sha256": "080a9ed428559ef602668b4c00f114f1a11c3f6b02a435f0bdc154578e4d7f22",
+      "ground_truth_version": "fixture-ground-truth-v0",
+      "ground_truth_sha256": "5dec69a66ee13ffbcc6ce6700003c11b45f2da8a77b63361cfb8b884c9a717ad",
+      "prompt_version": "fixture-shared-contract-v0",
+      "parser_version": "fixture-parser-v0",
+      "rubric_version": "fixture-rubric-v0",
+      "generation_configuration": {
+        "temperature": 0,
+        "top_p": 1,
+        "n": 1,
+        "stream": false,
+        "max_output_tokens": 8
+      },
+      "generation_configuration_sha256": "b1711184e16dbe7f14ca56c14d9f8c53e3c2aaf9fda84627906df2db6ce5f05e",
+      "model_catalog_version": "fixture-model-catalog-v0",
+      "model_catalog_sha256": "ba24f2a9b37ab33bd68a7b5b7a8c5ce27a587e9991aace1b45e2834c1f0d86b0",
+      "pricing_snapshot_id": "fixture-pricing-v0",
+      "pricing_snapshot_sha256": "e10b5beadd51b12a66a27f6aeb8e991714769bc66114fff4b19bc6f09ea1111d",
+      "timeout_seconds": 30,
+      "concurrency": 1,
+      "retries": 0,
+      "stream": false,
+      "application_version": "0.1.0",
+      "schema_revision": 1,
+      "metric_version": "fixture-accuracy-v0",
+      "dependency_lock_sha256": "c6da9b4fbabc8747ca2e6508128bbc1ed00fb791465c32d191446b8fe34b9dcf",
+      "source_sha256": "0e50bbeb3ac5c912bd6b89ff39363d7c419595d98da7d01fcd132874316474a4",
+      "started_at": "2026-08-20T10:00:00Z",
+      "ended_at": "2026-08-20T10:00:00.120Z",
+      "wall_clock_ms": 120,
+      "expected_count": 1,
+      "persisted_count": 1,
+      "usable_count": 1,
+      "normalized_count": 0,
+      "invalid_output_count": 0,
+      "request_error_count": 0
+    },
+    {
+      "schema_version": "run_manifest.v1",
+      "run_id": "fixture-run-model-b",
+      "run_type": "fixture_saved_comparison",
+      "model_id": "fixture-model-b",
+      "provider_endpoint_id": "fixture-digitalocean-compatible",
+      "status": "complete",
+      "corpus_version": "fixture-corpus-v0",
+      "corpus_sha256": "3be8d4d4c95ac971be55620dafda3cac7a2a469e73b1498335045d51182441c7",
+      "ordered_issue_numbers": [1],
+      "issue_order_sha256": "080a9ed428559ef602668b4c00f114f1a11c3f6b02a435f0bdc154578e4d7f22",
+      "ground_truth_version": "fixture-ground-truth-v0",
+      "ground_truth_sha256": "5dec69a66ee13ffbcc6ce6700003c11b45f2da8a77b63361cfb8b884c9a717ad",
+      "prompt_version": "fixture-shared-contract-v0",
+      "parser_version": "fixture-parser-v0",
+      "rubric_version": "fixture-rubric-v0",
+      "generation_configuration": {
+        "temperature": 0,
+        "top_p": 1,
+        "n": 1,
+        "stream": false,
+        "max_output_tokens": 8
+      },
+      "generation_configuration_sha256": "b1711184e16dbe7f14ca56c14d9f8c53e3c2aaf9fda84627906df2db6ce5f05e",
+      "model_catalog_version": "fixture-model-catalog-v0",
+      "model_catalog_sha256": "ba24f2a9b37ab33bd68a7b5b7a8c5ce27a587e9991aace1b45e2834c1f0d86b0",
+      "pricing_snapshot_id": "fixture-pricing-v0",
+      "pricing_snapshot_sha256": "e10b5beadd51b12a66a27f6aeb8e991714769bc66114fff4b19bc6f09ea1111d",
+      "timeout_seconds": 30,
+      "concurrency": 1,
+      "retries": 0,
+      "stream": false,
+      "application_version": "0.1.0",
+      "schema_revision": 1,
+      "metric_version": "fixture-accuracy-v0",
+      "dependency_lock_sha256": "c6da9b4fbabc8747ca2e6508128bbc1ed00fb791465c32d191446b8fe34b9dcf",
+      "source_sha256": "0e50bbeb3ac5c912bd6b89ff39363d7c419595d98da7d01fcd132874316474a4",
+      "started_at": "2026-08-20T10:01:00Z",
+      "ended_at": "2026-08-20T10:01:00.085Z",
+      "wall_clock_ms": 85,
+      "expected_count": 1,
+      "persisted_count": 1,
+      "usable_count": 1,
+      "normalized_count": 0,
+      "invalid_output_count": 0,
+      "request_error_count": 0
+    }
+  ],
+  "attempts": [
+    {
+      "schema_version": "attempt_evidence.v1",
+      "attempt_id": "fixture-attempt-model-a-1",
+      "run_id": "fixture-run-model-a",
+      "issue_number": 1,
+      "dispatch_order": 0,
+      "attempt_purpose": "benchmark",
+      "request_messages": [
+        {
+          "role": "system",
+          "content": "Classify the issue as exactly one customer label."
+        },
+        {
+          "role": "user",
+          "content": "{\"title\":\"Command exits unexpectedly when config is missing\",\"body\":\"Running `doctl fixture` without a config file exits with an unhandled error.\"}"
+        }
+      ],
+      "request_messages_sha256": "0297cd51b008a559a74a5af85b565fc39a6eccaced2503eedbc9f0530af2f7a1",
+      "request_parameters": {
+        "temperature": 0,
+        "top_p": 1,
+        "n": 1,
+        "stream": false,
+        "max_output_tokens": 8
+      },
+      "eligible_at": "2026-08-20T10:00:00Z",
+      "request_started_at": "2026-08-20T10:00:00.002Z",
+      "request_ended_at": "2026-08-20T10:00:00.102Z",
+      "queue_wait_ms": 2,
+      "request_latency_ms": 100,
+      "configured_timeout_seconds": 30,
+      "http_status": 200,
+      "provider_request_id": "fixture-request-a",
+      "finish_reason": "stop",
+      "response_headers": {
+        "content-type": "application/json",
+        "x-request-id": "fixture-request-a"
+      },
+      "raw_response": {
+        "id": "fixture-response-a",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "bug"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 47,
+          "completion_tokens": 1,
+          "total_tokens": 48
+        }
+      },
+      "raw_error": null,
+      "raw_model_output": "bug",
+      "parsed_label": "bug",
+      "parse_status": "exact",
+      "normalizations": [],
+      "scored_outcome": "correct",
+      "usable": true,
+      "usage": {
+        "prompt_tokens": 47,
+        "completion_tokens": 1,
+        "total_tokens": 48
+      },
+      "pricing_snapshot_id": "fixture-pricing-v0",
+      "cost_formula_version": "fixture-cost-v0",
+      "calculated_request_cost_usd": null,
+      "cost_completeness": "unknown"
+    },
+    {
+      "schema_version": "attempt_evidence.v1",
+      "attempt_id": "fixture-attempt-model-b-1",
+      "run_id": "fixture-run-model-b",
+      "issue_number": 1,
+      "dispatch_order": 0,
+      "attempt_purpose": "benchmark",
+      "request_messages": [
+        {
+          "role": "system",
+          "content": "Classify the issue as exactly one customer label."
+        },
+        {
+          "role": "user",
+          "content": "{\"title\":\"Command exits unexpectedly when config is missing\",\"body\":\"Running `doctl fixture` without a config file exits with an unhandled error.\"}"
+        }
+      ],
+      "request_messages_sha256": "0297cd51b008a559a74a5af85b565fc39a6eccaced2503eedbc9f0530af2f7a1",
+      "request_parameters": {
+        "temperature": 0,
+        "top_p": 1,
+        "n": 1,
+        "stream": false,
+        "max_output_tokens": 8
+      },
+      "eligible_at": "2026-08-20T10:01:00Z",
+      "request_started_at": "2026-08-20T10:01:00.001Z",
+      "request_ended_at": "2026-08-20T10:01:00.071Z",
+      "queue_wait_ms": 1,
+      "request_latency_ms": 70,
+      "configured_timeout_seconds": 30,
+      "http_status": 200,
+      "provider_request_id": "fixture-request-b",
+      "finish_reason": "stop",
+      "response_headers": {
+        "content-type": "application/json",
+        "x-request-id": "fixture-request-b"
+      },
+      "raw_response": {
+        "id": "fixture-response-b",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "enhancement"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 47,
+          "completion_tokens": 2,
+          "total_tokens": 49
+        }
+      },
+      "raw_error": null,
+      "raw_model_output": "enhancement",
+      "parsed_label": "enhancement",
+      "parse_status": "exact",
+      "normalizations": [],
+      "scored_outcome": "incorrect_label",
+      "usable": true,
+      "usage": {
+        "prompt_tokens": 47,
+        "completion_tokens": 2,
+        "total_tokens": 49
+      },
+      "pricing_snapshot_id": "fixture-pricing-v0",
+      "cost_formula_version": "fixture-cost-v0",
+      "calculated_request_cost_usd": null,
+      "cost_completeness": "unknown"
+    }
+  ]
+}

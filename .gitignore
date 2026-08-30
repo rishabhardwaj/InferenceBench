@@ -1,0 +1,21 @@
+.DS_Store
+.scratch/
+.agents/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.streamlit/secrets.toml
+.venv/
+__pycache__/
+*.py[cod]
+*.md
+!README.md
+*.log
+DigitalOcean FDE Evaluation Exercise _ Agentic AI.pdf
+artifacts/ground_truth/drafts/
+artifacts/prompts/development*/
+artifacts/results/prompt-development*.sqlite3
+artifacts/results/prompt-development*.summary.json
+artifacts/results/prompt-development-summary.json
+tmp/

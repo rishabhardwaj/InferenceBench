@@ -1,0 +1,227 @@
+{
+  "schema_version": "shared_bootstrap_plan_manifest.v1",
+  "plan_version": "candidate-screening-timeboxed-v1-shared-bootstrap-v1",
+  "baseline_plan_sha256": "061f869e27b23fda423b68926b54726e1e4adea36214899dae4ad39a523b6fec",
+  "ground_truth_version": "doctl-evaluation-v1",
+  "ground_truth_sha256": "16457b79724a2ca6fa90b36e52a29f7f89581c62e76bd8d1efed325ca9dc1394",
+  "algorithm_version": "sha256-counter-stratified-bootstrap-v1",
+  "interval_version": "linear-percentile-2.5-97.5-v1",
+  "metric_version": "candidate-bootstrap-metrics-v1",
+  "seed": 20260833,
+  "resample_count": 10000,
+  "holdout_count": 40,
+  "canonical_holdout_rows": [
+    {
+      "row_index": 0,
+      "issue_number": 128,
+      "ground_truth_label": "bug"
+    },
+    {
+      "row_index": 1,
+      "issue_number": 1312,
+      "ground_truth_label": "question"
+    },
+    {
+      "row_index": 2,
+      "issue_number": 964,
+      "ground_truth_label": "enhancement"
+    },
+    {
+      "row_index": 3,
+      "issue_number": 543,
+      "ground_truth_label": "enhancement"
+    },
+    {
+      "row_index": 4,
+      "issue_number": 251,
+      "ground_truth_label": "bug"
+    },
+    {
+      "row_index": 5,
+      "issue_number": 1869,
+      "ground_truth_label": "bug"
+    },
+    {
+      "row_index": 6,
+      "issue_number": 667,
+      "ground_truth_label": "enhancement"
+    },
+    {
+      "row_index": 7,
+      "issue_number": 595,
+      "ground_truth_label": "bug"
+    },
+    {
+      "row_index": 8,
+      "issue_number": 90,
+      "ground_truth_label": "enhancement"
+    },
+    {
+      "row_index": 9,
+      "issue_number": 1683,
+      "ground_truth_label": "bug"
+    },
+    {
+      "row_index": 10,
+      "issue_number": 1632,
+      "ground_truth_label": "bug"
+    },
+    {
+      "row_index": 11,
+      "issue_number": 20,
+      "ground_truth_label": "bug"
+    },
+    {
+      "row_index": 12,
+      "issue_number": 227,
+      "ground_truth_label": "bug"
+    },
+    {
+      "row_index": 13,
+      "issue_number": 340,
+      "ground_truth_label": "question"
+    },
+    {
+      "row_index": 14,
+      "issue_number": 734,
+      "ground_truth_label": "bug"
+    },
+    {
+      "row_index": 15,
+      "issue_number": 386,
+      "ground_truth_label": "bug"
+    },
+    {
+      "row_index": 16,
+      "issue_number": 1813,
+      "ground_truth_label": "bug"
+    },
+    {
+      "row_index": 17,
+      "issue_number": 1091,
+      "ground_truth_label": "security"
+    },
+    {
+      "row_index": 18,
+      "issue_number": 1584,
+      "ground_truth_label": "enhancement"
+    },
+    {
+      "row_index": 19,
+      "issue_number": 989,
+      "ground_truth_label": "enhancement"
+    },
+    {
+      "row_index": 20,
+      "issue_number": 448,
+      "ground_truth_label": "bug"
+    },
+    {
+      "row_index": 21,
+      "issue_number": 1534,
+      "ground_truth_label": "documentation"
+    },
+    {
+      "row_index": 22,
+      "issue_number": 156,
+      "ground_truth_label": "enhancement"
+    },
+    {
+      "row_index": 23,
+      "issue_number": 82,
+      "ground_truth_label": "bug"
+    },
+    {
+      "row_index": 24,
+      "issue_number": 857,
+      "ground_truth_label": "question"
+    },
+    {
+      "row_index": 25,
+      "issue_number": 735,
+      "ground_truth_label": "security"
+    },
+    {
+      "row_index": 26,
+      "issue_number": 640,
+      "ground_truth_label": "question"
+    },
+    {
+      "row_index": 27,
+      "issue_number": 974,
+      "ground_truth_label": "enhancement"
+    },
+    {
+      "row_index": 28,
+      "issue_number": 183,
+      "ground_truth_label": "question"
+    },
+    {
+      "row_index": 29,
+      "issue_number": 1001,
+      "ground_truth_label": "question"
+    },
+    {
+      "row_index": 30,
+      "issue_number": 318,
+      "ground_truth_label": "question"
+    },
+    {
+      "row_index": 31,
+      "issue_number": 65,
+      "ground_truth_label": "enhancement"
+    },
+    {
+      "row_index": 32,
+      "issue_number": 89,
+      "ground_truth_label": "enhancement"
+    },
+    {
+      "row_index": 33,
+      "issue_number": 849,
+      "ground_truth_label": "security"
+    },
+    {
+      "row_index": 34,
+      "issue_number": 219,
+      "ground_truth_label": "other"
+    },
+    {
+      "row_index": 35,
+      "issue_number": 1842,
+      "ground_truth_label": "bug"
+    },
+    {
+      "row_index": 36,
+      "issue_number": 751,
+      "ground_truth_label": "enhancement"
+    },
+    {
+      "row_index": 37,
+      "issue_number": 711,
+      "ground_truth_label": "question"
+    },
+    {
+      "row_index": 38,
+      "issue_number": 504,
+      "ground_truth_label": "bug"
+    },
+    {
+      "row_index": 39,
+      "issue_number": 1875,
+      "ground_truth_label": "enhancement"
+    }
+  ],
+  "canonical_holdout_sha256": "45dc45aef4f11d17c1edd2d8aefc503f88145d56c9a57da98ab76a0acc84a262",
+  "represented_class_support": {
+    "bug": 15,
+    "enhancement": 12,
+    "question": 8,
+    "documentation": 1,
+    "security": 3,
+    "other": 1
+  },
+  "resamples_file": "resamples.jsonl",
+  "resamples_sha256": "6a806f1dc02b26cc31a22fa2d69b927b2ddbd7d8428381b9ce46fa799ace5b80",
+  "content_sha256": "fdb8072c8f5d6328f635609fcc81f4c734d2058fd82ec015fa7b9ae50a7b13f1"
+}

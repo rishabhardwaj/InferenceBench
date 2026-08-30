@@ -1,0 +1,6 @@
+{
+  "artifact_sha256": "2f1db01f91a3ccc21c2ac0c3b10dc9720dde450d4643e0a4de7ece80a7e3b711",
+  "corpus_version": "doctl-2026-08-30",
+  "manifest_file": "doctl-2026-08-30/manifest.json",
+  "schema_version": "active_corpus.v1"
+}

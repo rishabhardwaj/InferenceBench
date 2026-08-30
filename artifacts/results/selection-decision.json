@@ -1,0 +1,18 @@
+{
+  "schema_version": "selection_decision_record.v1",
+  "recommended_model_id": "mistral-3-14B",
+  "decision_challenger_model_id": "deepseek-v4-flash-0731",
+  "recommended_run_id": "3f1360b1-ede5-42e3-87da-0be42e9ec598",
+  "decision_challenger_run_id": "d614980a-cd36-409f-9e23-6b263c274d2a",
+  "concurrency": 4,
+  "candidate_evidence_sha256": "7b858cd00854882a99e58146f928fc8f967d2ff777213555031543861e9ceb87",
+  "candidate_dispositions_sha256": "34eccbe667aaf860400d02966245ec1f77d2832f0a3bee906e1cd1401a4bd2fe",
+  "recommendation_rationale": "It achieved higher Primary Scored Holdout accuracy and macro-F1, lower p95 request latency, and zero observed invalid outputs or request errors in the matched complete-Corpus run at concurrency 4.",
+  "challenger_preference_condition": "its substantially lower cost per correct is more important than the observed Primary Scored Holdout quality, latency, and output-adherence advantage of the recommended model.",
+  "evidence_limits": [
+    "The quality headline is the 80-issue Primary Scored Holdout; the 20-issue Prompt Development Sample is not headline evidence.",
+    "The 20-issue Diagnostic Scored Supplement is deliberately selected for difficult and rare cases, so it is reported separately rather than merged into the random-holdout estimate.",
+    "Each operational result is one complete run at recorded concurrency 4; it is not a concurrency sweep or repeated-run stability result.",
+    "doctl is one representative repository. Cross-repository validation is required before a fleet-wide claim."
+  ]
+}

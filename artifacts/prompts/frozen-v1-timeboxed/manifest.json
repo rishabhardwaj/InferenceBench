@@ -1,0 +1,18 @@
+{
+  "schema_version": "shared_inference_contract_manifest.v1",
+  "contract_version": "shared-inference-contract-frozen-v1-timeboxed",
+  "contract_status": "frozen",
+  "prompt_version": "zero-shot-frozen-v1-timeboxed",
+  "parser_version": "bare-label-parser-v1",
+  "rubric_version": "v1",
+  "rubric_file": "docs/label-rubric-v1.md",
+  "rubric_sha256": "199f4fd6b4646274811eba172e056175d494c89748e9f9c3749784a535d9959e",
+  "system_message_file": "system.txt",
+  "system_message_sha256": "e5447a02e0139cad039f7dc043d583de5af47522e5106e49c5d09d29a20536f4",
+  "generation_configuration_file": "generation.json",
+  "generation_configuration_sha256": "c612877d097438d5581167898b20770c5f88b799f5883343d3b37cc177bc7565",
+  "input_schema": "fixed-order-compact-json-title-body-v1",
+  "output_schema": "one-bare-customer-taxonomy-label-v1",
+  "normalization_policy": "bounded-formatting-only-v1",
+  "serialization": "utf-8"
+}

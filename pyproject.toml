@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling==1.32.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "inferencebench"
+version = "0.1.0"
+description = "Reproducible evaluation of DigitalOcean-hosted models for issue classification"
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+  "httpx==0.28.1",
+  "pydantic==2.13.5",
+  "streamlit==1.62.0",
+]
+
+[project.scripts]
+inferencebench = "inferencebench.cli:main"
+
+[dependency-groups]
+dev = [
+  "pytest==9.1.1",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/inferencebench"]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+pythonpath = ["src"]
+testpaths = ["tests"]

@@ -1,0 +1,32 @@
+{
+  "schema_version": "closed_label_mapping_manifest.v1",
+  "mapping_version": "doctl-closed-labels-v1",
+  "corpus_version": "doctl-2026-08-30",
+  "corpus_sha256": "2f1db01f91a3ccc21c2ac0c3b10dc9720dde450d4643e0a4de7ece80a7e3b711",
+  "rules": [
+    {"source_label": "Needs Investigation", "normalized_meaning": "triage state", "disposition": "ignored"},
+    {"source_label": "api-parity", "normalized_meaning": "API parity scope", "disposition": "ignored"},
+    {"source_label": "app-platform", "normalized_meaning": "product area", "disposition": "ignored"},
+    {"source_label": "blocked", "normalized_meaning": "workflow state", "disposition": "ignored"},
+    {"source_label": "bug", "normalized_meaning": "bug", "disposition": "direct", "customer_label": "bug"},
+    {"source_label": "do-api", "normalized_meaning": "API dependency", "disposition": "ignored"},
+    {"source_label": "docs", "normalized_meaning": "documentation", "disposition": "direct", "customer_label": "documentation"},
+    {"source_label": "duplicate", "normalized_meaning": "duplicate administrative closure", "disposition": "administrative"},
+    {"source_label": "enhancement", "normalized_meaning": "enhancement", "disposition": "direct", "customer_label": "enhancement"},
+    {"source_label": "good first issue", "normalized_meaning": "contributor suitability", "disposition": "ignored"},
+    {"source_label": "hacktoberfest", "normalized_meaning": "event participation", "disposition": "ignored"},
+    {"source_label": "help wanted", "normalized_meaning": "contributor request", "disposition": "ignored"},
+    {"source_label": "packaging", "normalized_meaning": "product area", "disposition": "ignored"},
+    {"source_label": "question", "normalized_meaning": "question", "disposition": "direct", "customer_label": "question"},
+    {"source_label": "security vulnerability", "normalized_meaning": "security signal requiring human review", "disposition": "ignored"},
+    {"source_label": "snap", "normalized_meaning": "product area", "disposition": "ignored"},
+    {"source_label": "suggestion", "normalized_meaning": "enhancement", "disposition": "direct", "customer_label": "enhancement"},
+    {"source_label": "troubleshooting", "normalized_meaning": "community advice", "disposition": "ignored"},
+    {"source_label": "version 2.x", "normalized_meaning": "version scope", "disposition": "ignored"},
+    {"source_label": "waiting-response", "normalized_meaning": "needs information administrative closure", "disposition": "administrative"},
+    {"source_label": "windows", "normalized_meaning": "platform scope", "disposition": "ignored"},
+    {"source_label": "wip", "normalized_meaning": "workflow state", "disposition": "ignored"},
+    {"source_label": "work-around-available", "normalized_meaning": "resolution context", "disposition": "ignored"}
+  ],
+  "excluded_state_reasons": ["not_planned"]
+}

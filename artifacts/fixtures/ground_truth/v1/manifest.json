@@ -1,0 +1,12 @@
+{
+  "schema_version": "ground_truth_manifest.v1",
+  "ground_truth_version": "fixture-ground-truth-v1",
+  "corpus_version": "fixture-corpus-v1",
+  "artifact_file": "annotations.jsonl",
+  "artifact_sha256": "17ce10741734272dd07322cb2bcfa507accbd8578f51271efc73fc9b5c4f47ba",
+  "annotation_count": 1,
+  "ordered_issue_numbers": [
+    1
+  ]
+}
+

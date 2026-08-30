@@ -1,0 +1,1372 @@
+{
+  "schema_version": "fixture_run_bundle.v1",
+  "default_run_ids": [
+    "fixture-v2-run-model-a",
+    "fixture-v2-run-model-b"
+  ],
+  "runs": [
+    {
+      "schema_version": "run_manifest.v1",
+      "run_id": "fixture-v2-run-model-a",
+      "run_type": "fixture_saved_comparison",
+      "model_id": "openai-gpt-oss-20b",
+      "provider_endpoint_id": "fixture-digitalocean-compatible",
+      "status": "complete",
+      "corpus_version": "fixture-corpus-v1",
+      "corpus_sha256": "96c91b49ada6710bb8a2f451e1b9f62564bb9b64bcd85156fdda275f01602a5d",
+      "ordered_issue_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "issue_order_sha256": "cc9cd81c3110bc37d6c9bfd30bce0267b6cbfc3ffef7fb9abdc8615e42d10575",
+      "ground_truth_version": "fixture-ground-truth-v1",
+      "ground_truth_sha256": "17ce10741734272dd07322cb2bcfa507accbd8578f51271efc73fc9b5c4f47ba",
+      "prompt_version": "fixture-shared-contract-v0",
+      "parser_version": "fixture-parser-v0",
+      "rubric_version": "fixture-rubric-v0",
+      "generation_configuration": {
+        "temperature": 0,
+        "top_p": 1,
+        "n": 1,
+        "stream": false,
+        "max_output_tokens": 8
+      },
+      "generation_configuration_sha256": "b1711184e16dbe7f14ca56c14d9f8c53e3c2aaf9fda84627906df2db6ce5f05e",
+      "model_catalog_version": "eligible-candidates-2026-08-29",
+      "model_catalog_sha256": "b1e8a007837cedef52b98c7c59be98393bb804cfa7b8cb1864553777909131e9",
+      "pricing_snapshot_id": "do-serverless-pricing-2026-08-30",
+      "pricing_snapshot_sha256": "e7d07e990f2952ec5602847d1697134fd9eaf2bddaa679c9bd61056567d2f5f5",
+      "timeout_seconds": 30,
+      "concurrency": 1,
+      "retries": 0,
+      "stream": false,
+      "application_version": "0.1.0",
+      "schema_revision": 3,
+      "metric_version": "classification-and-operational-metrics-v1",
+      "dependency_lock_sha256": "c6da9b4fbabc8747ca2e6508128bbc1ed00fb791465c32d191446b8fe34b9dcf",
+      "source_sha256": "0e50bbeb3ac5c912bd6b89ff39363d7c419595d98da7d01fcd132874316474a4",
+      "started_at": "2026-08-20T10:00:00Z",
+      "ended_at": "2026-08-20T10:01:01Z",
+      "wall_clock_ms": 60410,
+      "expected_count": 7,
+      "persisted_count": 7,
+      "usable_count": 4,
+      "normalized_count": 1,
+      "invalid_output_count": 1,
+      "request_error_count": 2
+    },
+    {
+      "schema_version": "run_manifest.v1",
+      "run_id": "fixture-v2-run-model-b",
+      "run_type": "fixture_saved_comparison",
+      "model_id": "openai-gpt-oss-120b",
+      "provider_endpoint_id": "fixture-digitalocean-compatible",
+      "status": "complete",
+      "corpus_version": "fixture-corpus-v1",
+      "corpus_sha256": "96c91b49ada6710bb8a2f451e1b9f62564bb9b64bcd85156fdda275f01602a5d",
+      "ordered_issue_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "issue_order_sha256": "cc9cd81c3110bc37d6c9bfd30bce0267b6cbfc3ffef7fb9abdc8615e42d10575",
+      "ground_truth_version": "fixture-ground-truth-v1",
+      "ground_truth_sha256": "17ce10741734272dd07322cb2bcfa507accbd8578f51271efc73fc9b5c4f47ba",
+      "prompt_version": "fixture-shared-contract-v0",
+      "parser_version": "fixture-parser-v0",
+      "rubric_version": "fixture-rubric-v0",
+      "generation_configuration": {
+        "temperature": 0,
+        "top_p": 1,
+        "n": 1,
+        "stream": false,
+        "max_output_tokens": 8
+      },
+      "generation_configuration_sha256": "b1711184e16dbe7f14ca56c14d9f8c53e3c2aaf9fda84627906df2db6ce5f05e",
+      "model_catalog_version": "eligible-candidates-2026-08-29",
+      "model_catalog_sha256": "b1e8a007837cedef52b98c7c59be98393bb804cfa7b8cb1864553777909131e9",
+      "pricing_snapshot_id": "do-serverless-pricing-2026-08-30",
+      "pricing_snapshot_sha256": "e7d07e990f2952ec5602847d1697134fd9eaf2bddaa679c9bd61056567d2f5f5",
+      "timeout_seconds": 30,
+      "concurrency": 1,
+      "retries": 0,
+      "stream": false,
+      "application_version": "0.1.0",
+      "schema_revision": 3,
+      "metric_version": "classification-and-operational-metrics-v1",
+      "dependency_lock_sha256": "c6da9b4fbabc8747ca2e6508128bbc1ed00fb791465c32d191446b8fe34b9dcf",
+      "source_sha256": "0e50bbeb3ac5c912bd6b89ff39363d7c419595d98da7d01fcd132874316474a4",
+      "started_at": "2026-08-20T12:00:00Z",
+      "ended_at": "2026-08-20T12:00:31Z",
+      "wall_clock_ms": 30465,
+      "expected_count": 7,
+      "persisted_count": 7,
+      "usable_count": 4,
+      "normalized_count": 0,
+      "invalid_output_count": 2,
+      "request_error_count": 1
+    }
+  ],
+  "attempts": [
+    {
+      "schema_version": "attempt_evidence.v3",
+      "attempt_id": "fixture-v2-attempt-model-a-1",
+      "run_id": "fixture-v2-run-model-a",
+      "issue_number": 1,
+      "dispatch_order": 0,
+      "attempt_purpose": "benchmark",
+      "request_messages": [
+        {
+          "role": "system",
+          "content": "Classify the issue as exactly one customer label."
+        },
+        {
+          "role": "user",
+          "content": "{\"title\":\"Command exits unexpectedly when config is missing\",\"body\":\"Running `doctl fixture` without a config file exits with an unhandled error.\"}"
+        }
+      ],
+      "request_messages_sha256": "0297cd51b008a559a74a5af85b565fc39a6eccaced2503eedbc9f0530af2f7a1",
+      "request_parameters": {
+        "temperature": 0,
+        "top_p": 1,
+        "n": 1,
+        "stream": false,
+        "max_output_tokens": 8
+      },
+      "eligible_at": "2026-08-20T10:00:00Z",
+      "request_started_at": "2026-08-20T10:00:00.002Z",
+      "request_ended_at": "2026-08-20T10:00:00.102Z",
+      "queue_wait_ms": 2,
+      "request_latency_ms": 100,
+      "configured_timeout_seconds": 30,
+      "http_status": 200,
+      "provider_request_id": "fixture-request-a",
+      "finish_reason": "stop",
+      "response_headers": {
+        "content-type": "application/json",
+        "x-request-id": "fixture-request-a"
+      },
+      "raw_response": {
+        "id": "fixture-response-a",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "bug"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 47,
+          "completion_tokens": 1,
+          "total_tokens": 48
+        }
+      },
+      "raw_error": null,
+      "raw_model_output": "bug",
+      "parsed_label": "bug",
+      "parse_status": "exact",
+      "normalizations": [],
+      "scored_outcome": "correct",
+      "usable": true,
+      "usage": {
+        "prompt_tokens": 47,
+        "completion_tokens": 1,
+        "total_tokens": 48
+      },
+      "pricing_snapshot_id": "do-serverless-pricing-2026-08-30",
+      "cost_formula_version": "calculated-request-cost-v1",
+      "calculated_request_cost_usd": "0.00000280",
+      "cost_completeness": "complete",
+      "provider_outcome": "success",
+      "cost_calculation_terms": [
+        {
+          "category": "standard_input",
+          "usage_path": "prompt_tokens minus separately priced cached/cache-write tokens",
+          "token_count": 47,
+          "rate_usd": "0.05",
+          "unit_tokens": 1000000,
+          "cost_usd": "0.00000235"
+        },
+        {
+          "category": "output",
+          "usage_path": "completion_tokens",
+          "token_count": 1,
+          "rate_usd": "0.45",
+          "unit_tokens": 1000000,
+          "cost_usd": "4.5E-7"
+        }
+      ],
+      "cost_unknown_reasons": []
+    },
+    {
+      "schema_version": "attempt_evidence.v3",
+      "attempt_id": "fixture-v2-attempt-model-a-2",
+      "run_id": "fixture-v2-run-model-a",
+      "issue_number": 2,
+      "dispatch_order": 1,
+      "attempt_purpose": "benchmark",
+      "request_messages": [
+        {
+          "role": "system",
+          "content": "Classify the issue as exactly one customer label."
+        },
+        {
+          "role": "user",
+          "content": "{\"title\":\"Clarify token setup documentation\",\"body\":\"The login guide does not explain how to rotate API tokens.\"}"
+        }
+      ],
+      "request_messages_sha256": "cb96ec052b79c6c86c20f12bf0de1cc80e47d7acf7d39f4e9f678869b56c163e",
+      "request_parameters": {
+        "temperature": 0,
+        "top_p": 1,
+        "n": 1,
+        "stream": false,
+        "max_output_tokens": 8
+      },
+      "eligible_at": "2026-08-20T10:00:01.000Z",
+      "request_started_at": "2026-08-20T10:00:01.002Z",
+      "request_ended_at": "2026-08-20T10:00:01.082Z",
+      "queue_wait_ms": 2,
+      "request_latency_ms": 80,
+      "configured_timeout_seconds": 30,
+      "provider_outcome": "success",
+      "http_status": 200,
+      "provider_request_id": "fixture-v1-request-a-2",
+      "finish_reason": "stop",
+      "response_headers": {
+        "content-type": "application/json",
+        "x-request-id": "fixture-v1-request-a-2"
+      },
+      "raw_response": {
+        "id": "fixture-v1-response-a-2",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "documentation"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 37,
+          "completion_tokens": 1,
+          "total_tokens": 38
+        }
+      },
+      "raw_error": null,
+      "raw_model_output": "documentation",
+      "parsed_label": "documentation",
+      "parse_status": "exact",
+      "normalizations": [],
+      "scored_outcome": null,
+      "usable": true,
+      "usage": {
+        "prompt_tokens": 37,
+        "completion_tokens": 1,
+        "total_tokens": 38
+      },
+      "pricing_snapshot_id": "do-serverless-pricing-2026-08-30",
+      "cost_formula_version": "calculated-request-cost-v1",
+      "calculated_request_cost_usd": "0.00000230",
+      "cost_completeness": "complete",
+      "cost_calculation_terms": [
+        {
+          "category": "standard_input",
+          "usage_path": "prompt_tokens minus separately priced cached/cache-write tokens",
+          "token_count": 37,
+          "rate_usd": "0.05",
+          "unit_tokens": 1000000,
+          "cost_usd": "0.00000185"
+        },
+        {
+          "category": "output",
+          "usage_path": "completion_tokens",
+          "token_count": 1,
+          "rate_usd": "0.45",
+          "unit_tokens": 1000000,
+          "cost_usd": "4.5E-7"
+        }
+      ],
+      "cost_unknown_reasons": []
+    },
+    {
+      "schema_version": "attempt_evidence.v3",
+      "attempt_id": "fixture-v2-attempt-model-a-3",
+      "run_id": "fixture-v2-run-model-a",
+      "issue_number": 3,
+      "dispatch_order": 2,
+      "attempt_purpose": "benchmark",
+      "request_messages": [
+        {
+          "role": "system",
+          "content": "Classify the issue as exactly one customer label."
+        },
+        {
+          "role": "user",
+          "content": "{\"title\":\"Add JSON output to registry list\",\"body\":\"Please add machine-readable JSON output to the registry list command.\"}"
+        }
+      ],
+      "request_messages_sha256": "cce43b5e03b17b1a8c8becabc67797cfbcb3beac2ba1a22034e6e10818daaeb3",
+      "request_parameters": {
+        "temperature": 0,
+        "top_p": 1,
+        "n": 1,
+        "stream": false,
+        "max_output_tokens": 8
+      },
+      "eligible_at": "2026-08-20T10:00:01.085Z",
+      "request_started_at": "2026-08-20T10:00:01.087Z",
+      "request_ended_at": "2026-08-20T10:00:01.177Z",
+      "queue_wait_ms": 2,
+      "request_latency_ms": 90,
+      "configured_timeout_seconds": 30,
+      "provider_outcome": "success",
+      "http_status": 200,
+      "provider_request_id": "fixture-v1-request-a-3",
+      "finish_reason": "stop",
+      "response_headers": {
+        "content-type": "application/json",
+        "x-request-id": "fixture-v1-request-a-3"
+      },
+      "raw_response": {
+        "id": "fixture-v1-response-a-3",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "bug"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 1,
+          "total_tokens": 39
+        }
+      },
+      "raw_error": null,
+      "raw_model_output": "bug",
+      "parsed_label": "bug",
+      "parse_status": "exact",
+      "normalizations": [],
+      "scored_outcome": null,
+      "usable": true,
+      "usage": {
+        "prompt_tokens": 38,
+        "completion_tokens": 1,
+        "total_tokens": 39
+      },
+      "pricing_snapshot_id": "do-serverless-pricing-2026-08-30",
+      "cost_formula_version": "calculated-request-cost-v1",
+      "calculated_request_cost_usd": "0.00000235",
+      "cost_completeness": "complete",
+      "cost_calculation_terms": [
+        {
+          "category": "standard_input",
+          "usage_path": "prompt_tokens minus separately priced cached/cache-write tokens",
+          "token_count": 38,
+          "rate_usd": "0.05",
+          "unit_tokens": 1000000,
+          "cost_usd": "0.0000019"
+        },
+        {
+          "category": "output",
+          "usage_path": "completion_tokens",
+          "token_count": 1,
+          "rate_usd": "0.45",
+          "unit_tokens": 1000000,
+          "cost_usd": "4.5E-7"
+        }
+      ],
+      "cost_unknown_reasons": []
+    },
+    {
+      "schema_version": "attempt_evidence.v3",
+      "attempt_id": "fixture-v2-attempt-model-a-4",
+      "run_id": "fixture-v2-run-model-a",
+      "issue_number": 4,
+      "dispatch_order": 3,
+      "attempt_purpose": "benchmark",
+      "request_messages": [
+        {
+          "role": "system",
+          "content": "Classify the issue as exactly one customer label."
+        },
+        {
+          "role": "user",
+          "content": "{\"title\":\"Support a retry flag for uploads\",\"body\":\"Please add a retry flag so interrupted uploads can continue.\"}"
+        }
+      ],
+      "request_messages_sha256": "bee0dbeafc42785b1be1d2c00abcd0f78de03ebfdbd9fd7739305832136cf952",
+      "request_parameters": {
+        "temperature": 0,
+        "top_p": 1,
+        "n": 1,
+        "stream": false,
+        "max_output_tokens": 8
+      },
+      "eligible_at": "2026-08-20T10:00:01.180Z",
+      "request_started_at": "2026-08-20T10:00:01.182Z",
+      "request_ended_at": "2026-08-20T10:00:01.257Z",
+      "queue_wait_ms": 2,
+      "request_latency_ms": 75,
+      "configured_timeout_seconds": 30,
+      "provider_outcome": "success",
+      "http_status": 200,
+      "provider_request_id": "fixture-v1-request-a-4",
+      "finish_reason": "stop",
+      "response_headers": {
+        "content-type": "application/json",
+        "x-request-id": "fixture-v1-request-a-4"
+      },
+      "raw_response": {
+        "id": "fixture-v1-response-a-4",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "`enhancement`."
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 1,
+          "total_tokens": 40
+        }
+      },
+      "raw_error": null,
+      "raw_model_output": "`enhancement`.",
+      "parsed_label": "enhancement",
+      "parse_status": "normalized",
+      "normalizations": [
+        "strip_code_quotes",
+        "strip_terminal_punctuation"
+      ],
+      "scored_outcome": null,
+      "usable": true,
+      "usage": {
+        "prompt_tokens": 39,
+        "completion_tokens": 1,
+        "total_tokens": 40
+      },
+      "pricing_snapshot_id": "do-serverless-pricing-2026-08-30",
+      "cost_formula_version": "calculated-request-cost-v1",
+      "calculated_request_cost_usd": "0.00000240",
+      "cost_completeness": "complete",
+      "cost_calculation_terms": [
+        {
+          "category": "standard_input",
+          "usage_path": "prompt_tokens minus separately priced cached/cache-write tokens",
+          "token_count": 39,
+          "rate_usd": "0.05",
+          "unit_tokens": 1000000,
+          "cost_usd": "0.00000195"
+        },
+        {
+          "category": "output",
+          "usage_path": "completion_tokens",
+          "token_count": 1,
+          "rate_usd": "0.45",
+          "unit_tokens": 1000000,
+          "cost_usd": "4.5E-7"
+        }
+      ],
+      "cost_unknown_reasons": []
+    },
+    {
+      "schema_version": "attempt_evidence.v3",
+      "attempt_id": "fixture-v2-attempt-model-a-5",
+      "run_id": "fixture-v2-run-model-a",
+      "issue_number": 5,
+      "dispatch_order": 4,
+      "attempt_purpose": "benchmark",
+      "request_messages": [
+        {
+          "role": "system",
+          "content": "Classify the issue as exactly one customer label."
+        },
+        {
+          "role": "user",
+          "content": "{\"title\":\"Authentication command hangs\",\"body\":\"Token validation hangs until the client deadline is reached.\"}"
+        }
+      ],
+      "request_messages_sha256": "c825a0353227152befc9f46d4c4479bc57e072029a82660726d9542b7b30a5d8",
+      "request_parameters": {
+        "temperature": 0,
+        "top_p": 1,
+        "n": 1,
+        "stream": false,
+        "max_output_tokens": 8
+      },
+      "eligible_at": "2026-08-20T10:00:01.260Z",
+      "request_started_at": "2026-08-20T10:00:01.262Z",
+      "request_ended_at": "2026-08-20T10:00:31.262Z",
+      "queue_wait_ms": 2,
+      "request_latency_ms": 30000,
+      "configured_timeout_seconds": 30,
+      "provider_outcome": "timeout",
+      "http_status": null,
+      "provider_request_id": null,
+      "finish_reason": null,
+      "response_headers": {},
+      "raw_response": null,
+      "raw_error": {
+        "type": "timeout",
+        "message": "Fixture request reached the configured timeout."
+      },
+      "raw_model_output": null,
+      "parsed_label": null,
+      "parse_status": "invalid",
+      "normalizations": [],
+      "scored_outcome": null,
+      "usable": false,
+      "usage": {},
+      "pricing_snapshot_id": "do-serverless-pricing-2026-08-30",
+      "cost_formula_version": "calculated-request-cost-v1",
+      "calculated_request_cost_usd": null,
+      "cost_completeness": "unknown",
+      "cost_calculation_terms": [
+        {
+          "category": "standard_input",
+          "usage_path": "prompt_tokens minus separately priced cached/cache-write tokens",
+          "token_count": 0,
+          "rate_usd": "0.05",
+          "unit_tokens": 1000000,
+          "cost_usd": "0.00"
+        },
+        {
+          "category": "output",
+          "usage_path": "completion_tokens",
+          "token_count": 0,
+          "rate_usd": "0.45",
+          "unit_tokens": 1000000,
+          "cost_usd": "0.00"
+        }
+      ],
+      "cost_unknown_reasons": [
+        "missing prompt_tokens",
+        "missing completion_tokens"
+      ]
+    },
+    {
+      "schema_version": "attempt_evidence.v3",
+      "attempt_id": "fixture-v2-attempt-model-a-6",
+      "run_id": "fixture-v2-run-model-a",
+      "issue_number": 6,
+      "dispatch_order": 5,
+      "attempt_purpose": "benchmark",
+      "request_messages": [
+        {
+          "role": "system",
+          "content": "Classify the issue as exactly one customer label."
+        },
+        {
+          "role": "user",
+          "content": "{\"title\":\"Unexpected response from project command\",\"body\":\"The project command returns a free-form response that is not actionable.\"}"
+        }
+      ],
+      "request_messages_sha256": "3840b100f38f491519d9da867e723bb54e068aa15f44ec5edd0c706d97e047d2",
+      "request_parameters": {
+        "temperature": 0,
+        "top_p": 1,
+        "n": 1,
+        "stream": false,
+        "max_output_tokens": 8
+      },
+      "eligible_at": "2026-08-20T10:00:31.265Z",
+      "request_started_at": "2026-08-20T10:00:31.267Z",
+      "request_ended_at": "2026-08-20T10:00:31.332Z",
+      "queue_wait_ms": 2,
+      "request_latency_ms": 65,
+      "configured_timeout_seconds": 30,
+      "provider_outcome": "success",
+      "http_status": 200,
+      "provider_request_id": "fixture-v1-request-a-6",
+      "finish_reason": "stop",
+      "response_headers": {
+        "content-type": "application/json",
+        "x-request-id": "fixture-v1-request-a-6"
+      },
+      "raw_response": {
+        "id": "fixture-v1-response-a-6",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "maybe"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 41,
+          "completion_tokens": 1,
+          "total_tokens": 42
+        }
+      },
+      "raw_error": null,
+      "raw_model_output": "maybe",
+      "parsed_label": null,
+      "parse_status": "invalid",
+      "normalizations": [],
+      "scored_outcome": null,
+      "usable": false,
+      "usage": {
+        "prompt_tokens": 41,
+        "completion_tokens": 1,
+        "total_tokens": 42
+      },
+      "pricing_snapshot_id": "do-serverless-pricing-2026-08-30",
+      "cost_formula_version": "calculated-request-cost-v1",
+      "calculated_request_cost_usd": "0.00000250",
+      "cost_completeness": "complete",
+      "cost_calculation_terms": [
+        {
+          "category": "standard_input",
+          "usage_path": "prompt_tokens minus separately priced cached/cache-write tokens",
+          "token_count": 41,
+          "rate_usd": "0.05",
+          "unit_tokens": 1000000,
+          "cost_usd": "0.00000205"
+        },
+        {
+          "category": "output",
+          "usage_path": "completion_tokens",
+          "token_count": 1,
+          "rate_usd": "0.45",
+          "unit_tokens": 1000000,
+          "cost_usd": "4.5E-7"
+        }
+      ],
+      "cost_unknown_reasons": []
+    },
+    {
+      "schema_version": "attempt_evidence.v3",
+      "attempt_id": "fixture-v2-attempt-model-a-7",
+      "run_id": "fixture-v2-run-model-a",
+      "issue_number": 7,
+      "dispatch_order": 6,
+      "attempt_purpose": "benchmark",
+      "request_messages": [
+        {
+          "role": "system",
+          "content": "Classify the issue as exactly one customer label."
+        },
+        {
+          "role": "user",
+          "content": "{\"title\":\"Requests stall behind a proxy\",\"body\":\"The command stalls behind a corporate proxy and never returns a response.\"}"
+        }
+      ],
+      "request_messages_sha256": "5c4ada9f9f4d57a2b27b0d459343edfa766f69de9d41fccc1ff9f5e32f915562",
+      "request_parameters": {
+        "temperature": 0,
+        "top_p": 1,
+        "n": 1,
+        "stream": false,
+        "max_output_tokens": 8
+      },
+      "eligible_at": "2026-08-20T10:00:31.335Z",
+      "request_started_at": "2026-08-20T10:00:31.337Z",
+      "request_ended_at": "2026-08-20T10:01:01.337Z",
+      "queue_wait_ms": 2,
+      "request_latency_ms": 30000,
+      "configured_timeout_seconds": 30,
+      "provider_outcome": "timeout",
+      "http_status": null,
+      "provider_request_id": null,
+      "finish_reason": null,
+      "response_headers": {},
+      "raw_response": null,
+      "raw_error": {
+        "type": "timeout",
+        "message": "Fixture request reached the configured timeout."
+      },
+      "raw_model_output": null,
+      "parsed_label": null,
+      "parse_status": "invalid",
+      "normalizations": [],
+      "scored_outcome": null,
+      "usable": false,
+      "usage": {},
+      "pricing_snapshot_id": "do-serverless-pricing-2026-08-30",
+      "cost_formula_version": "calculated-request-cost-v1",
+      "calculated_request_cost_usd": null,
+      "cost_completeness": "unknown",
+      "cost_calculation_terms": [
+        {
+          "category": "standard_input",
+          "usage_path": "prompt_tokens minus separately priced cached/cache-write tokens",
+          "token_count": 0,
+          "rate_usd": "0.05",
+          "unit_tokens": 1000000,
+          "cost_usd": "0.00"
+        },
+        {
+          "category": "output",
+          "usage_path": "completion_tokens",
+          "token_count": 0,
+          "rate_usd": "0.45",
+          "unit_tokens": 1000000,
+          "cost_usd": "0.00"
+        }
+      ],
+      "cost_unknown_reasons": [
+        "missing prompt_tokens",
+        "missing completion_tokens"
+      ]
+    },
+    {
+      "schema_version": "attempt_evidence.v3",
+      "attempt_id": "fixture-v2-attempt-model-b-1",
+      "run_id": "fixture-v2-run-model-b",
+      "issue_number": 1,
+      "dispatch_order": 0,
+      "attempt_purpose": "benchmark",
+      "request_messages": [
+        {
+          "role": "system",
+          "content": "Classify the issue as exactly one customer label."
+        },
+        {
+          "role": "user",
+          "content": "{\"title\":\"Command exits unexpectedly when config is missing\",\"body\":\"Running `doctl fixture` without a config file exits with an unhandled error.\"}"
+        }
+      ],
+      "request_messages_sha256": "0297cd51b008a559a74a5af85b565fc39a6eccaced2503eedbc9f0530af2f7a1",
+      "request_parameters": {
+        "temperature": 0,
+        "top_p": 1,
+        "n": 1,
+        "stream": false,
+        "max_output_tokens": 8
+      },
+      "eligible_at": "2026-08-20T10:01:00Z",
+      "request_started_at": "2026-08-20T10:01:00.001Z",
+      "request_ended_at": "2026-08-20T10:01:00.071Z",
+      "queue_wait_ms": 1,
+      "request_latency_ms": 70,
+      "configured_timeout_seconds": 30,
+      "http_status": 200,
+      "provider_request_id": "fixture-request-b",
+      "finish_reason": "stop",
+      "response_headers": {
+        "content-type": "application/json",
+        "x-request-id": "fixture-request-b"
+      },
+      "raw_response": {
+        "id": "fixture-response-b",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "enhancement"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 47,
+          "completion_tokens": 2,
+          "total_tokens": 49
+        }
+      },
+      "raw_error": null,
+      "raw_model_output": "enhancement",
+      "parsed_label": "enhancement",
+      "parse_status": "exact",
+      "normalizations": [],
+      "scored_outcome": "incorrect_label",
+      "usable": true,
+      "usage": {
+        "prompt_tokens": 47,
+        "completion_tokens": 2,
+        "total_tokens": 49
+      },
+      "pricing_snapshot_id": "do-serverless-pricing-2026-08-30",
+      "cost_formula_version": "calculated-request-cost-v1",
+      "calculated_request_cost_usd": "0.00000360",
+      "cost_completeness": "complete",
+      "provider_outcome": "success",
+      "cost_calculation_terms": [
+        {
+          "category": "standard_input",
+          "usage_path": "prompt_tokens minus separately priced cached/cache-write tokens",
+          "token_count": 47,
+          "rate_usd": "0.06",
+          "unit_tokens": 1000000,
+          "cost_usd": "0.00000282"
+        },
+        {
+          "category": "output",
+          "usage_path": "completion_tokens",
+          "token_count": 2,
+          "rate_usd": "0.39",
+          "unit_tokens": 1000000,
+          "cost_usd": "7.8E-7"
+        }
+      ],
+      "cost_unknown_reasons": []
+    },
+    {
+      "schema_version": "attempt_evidence.v3",
+      "attempt_id": "fixture-v2-attempt-model-b-2",
+      "run_id": "fixture-v2-run-model-b",
+      "issue_number": 2,
+      "dispatch_order": 1,
+      "attempt_purpose": "benchmark",
+      "request_messages": [
+        {
+          "role": "system",
+          "content": "Classify the issue as exactly one customer label."
+        },
+        {
+          "role": "user",
+          "content": "{\"title\":\"Clarify token setup documentation\",\"body\":\"The login guide does not explain how to rotate API tokens.\"}"
+        }
+      ],
+      "request_messages_sha256": "cb96ec052b79c6c86c20f12bf0de1cc80e47d7acf7d39f4e9f678869b56c163e",
+      "request_parameters": {
+        "temperature": 0,
+        "top_p": 1,
+        "n": 1,
+        "stream": false,
+        "max_output_tokens": 8
+      },
+      "eligible_at": "2026-08-20T12:00:01.000Z",
+      "request_started_at": "2026-08-20T12:00:01.002Z",
+      "request_ended_at": "2026-08-20T12:00:01.087Z",
+      "queue_wait_ms": 2,
+      "request_latency_ms": 85,
+      "configured_timeout_seconds": 30,
+      "provider_outcome": "success",
+      "http_status": 200,
+      "provider_request_id": "fixture-v1-request-b-2",
+      "finish_reason": "stop",
+      "response_headers": {
+        "content-type": "application/json",
+        "x-request-id": "fixture-v1-request-b-2"
+      },
+      "raw_response": {
+        "id": "fixture-v1-response-b-2",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "documentation"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 37,
+          "completion_tokens": 1,
+          "total_tokens": 38
+        }
+      },
+      "raw_error": null,
+      "raw_model_output": "documentation",
+      "parsed_label": "documentation",
+      "parse_status": "exact",
+      "normalizations": [],
+      "scored_outcome": null,
+      "usable": true,
+      "usage": {
+        "prompt_tokens": 37,
+        "completion_tokens": 1,
+        "total_tokens": 38
+      },
+      "pricing_snapshot_id": "do-serverless-pricing-2026-08-30",
+      "cost_formula_version": "calculated-request-cost-v1",
+      "calculated_request_cost_usd": "0.00000261",
+      "cost_completeness": "complete",
+      "cost_calculation_terms": [
+        {
+          "category": "standard_input",
+          "usage_path": "prompt_tokens minus separately priced cached/cache-write tokens",
+          "token_count": 37,
+          "rate_usd": "0.06",
+          "unit_tokens": 1000000,
+          "cost_usd": "0.00000222"
+        },
+        {
+          "category": "output",
+          "usage_path": "completion_tokens",
+          "token_count": 1,
+          "rate_usd": "0.39",
+          "unit_tokens": 1000000,
+          "cost_usd": "3.9E-7"
+        }
+      ],
+      "cost_unknown_reasons": []
+    },
+    {
+      "schema_version": "attempt_evidence.v3",
+      "attempt_id": "fixture-v2-attempt-model-b-3",
+      "run_id": "fixture-v2-run-model-b",
+      "issue_number": 3,
+      "dispatch_order": 2,
+      "attempt_purpose": "benchmark",
+      "request_messages": [
+        {
+          "role": "system",
+          "content": "Classify the issue as exactly one customer label."
+        },
+        {
+          "role": "user",
+          "content": "{\"title\":\"Add JSON output to registry list\",\"body\":\"Please add machine-readable JSON output to the registry list command.\"}"
+        }
+      ],
+      "request_messages_sha256": "cce43b5e03b17b1a8c8becabc67797cfbcb3beac2ba1a22034e6e10818daaeb3",
+      "request_parameters": {
+        "temperature": 0,
+        "top_p": 1,
+        "n": 1,
+        "stream": false,
+        "max_output_tokens": 8
+      },
+      "eligible_at": "2026-08-20T12:00:01.090Z",
+      "request_started_at": "2026-08-20T12:00:01.092Z",
+      "request_ended_at": "2026-08-20T12:00:01.187Z",
+      "queue_wait_ms": 2,
+      "request_latency_ms": 95,
+      "configured_timeout_seconds": 30,
+      "provider_outcome": "success",
+      "http_status": 200,
+      "provider_request_id": "fixture-v1-request-b-3",
+      "finish_reason": "stop",
+      "response_headers": {
+        "content-type": "application/json",
+        "x-request-id": "fixture-v1-request-b-3"
+      },
+      "raw_response": {
+        "id": "fixture-v1-response-b-3",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "question"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 1,
+          "total_tokens": 39
+        }
+      },
+      "raw_error": null,
+      "raw_model_output": "question",
+      "parsed_label": "question",
+      "parse_status": "exact",
+      "normalizations": [],
+      "scored_outcome": null,
+      "usable": true,
+      "usage": {
+        "prompt_tokens": 38,
+        "completion_tokens": 1,
+        "total_tokens": 39
+      },
+      "pricing_snapshot_id": "do-serverless-pricing-2026-08-30",
+      "cost_formula_version": "calculated-request-cost-v1",
+      "calculated_request_cost_usd": "0.00000267",
+      "cost_completeness": "complete",
+      "cost_calculation_terms": [
+        {
+          "category": "standard_input",
+          "usage_path": "prompt_tokens minus separately priced cached/cache-write tokens",
+          "token_count": 38,
+          "rate_usd": "0.06",
+          "unit_tokens": 1000000,
+          "cost_usd": "0.00000228"
+        },
+        {
+          "category": "output",
+          "usage_path": "completion_tokens",
+          "token_count": 1,
+          "rate_usd": "0.39",
+          "unit_tokens": 1000000,
+          "cost_usd": "3.9E-7"
+        }
+      ],
+      "cost_unknown_reasons": []
+    },
+    {
+      "schema_version": "attempt_evidence.v3",
+      "attempt_id": "fixture-v2-attempt-model-b-4",
+      "run_id": "fixture-v2-run-model-b",
+      "issue_number": 4,
+      "dispatch_order": 3,
+      "attempt_purpose": "benchmark",
+      "request_messages": [
+        {
+          "role": "system",
+          "content": "Classify the issue as exactly one customer label."
+        },
+        {
+          "role": "user",
+          "content": "{\"title\":\"Support a retry flag for uploads\",\"body\":\"Please add a retry flag so interrupted uploads can continue.\"}"
+        }
+      ],
+      "request_messages_sha256": "bee0dbeafc42785b1be1d2c00abcd0f78de03ebfdbd9fd7739305832136cf952",
+      "request_parameters": {
+        "temperature": 0,
+        "top_p": 1,
+        "n": 1,
+        "stream": false,
+        "max_output_tokens": 8
+      },
+      "eligible_at": "2026-08-20T12:00:01.190Z",
+      "request_started_at": "2026-08-20T12:00:01.192Z",
+      "request_ended_at": "2026-08-20T12:00:01.252Z",
+      "queue_wait_ms": 2,
+      "request_latency_ms": 60,
+      "configured_timeout_seconds": 30,
+      "provider_outcome": "success",
+      "http_status": 200,
+      "provider_request_id": "fixture-v1-request-b-4",
+      "finish_reason": "stop",
+      "response_headers": {
+        "content-type": "application/json",
+        "x-request-id": "fixture-v1-request-b-4"
+      },
+      "raw_response": {
+        "id": "fixture-v1-response-b-4",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "not-a-label"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 1,
+          "total_tokens": 40
+        }
+      },
+      "raw_error": null,
+      "raw_model_output": "not-a-label",
+      "parsed_label": null,
+      "parse_status": "invalid",
+      "normalizations": [],
+      "scored_outcome": null,
+      "usable": false,
+      "usage": {
+        "prompt_tokens": 39,
+        "completion_tokens": 1,
+        "total_tokens": 40
+      },
+      "pricing_snapshot_id": "do-serverless-pricing-2026-08-30",
+      "cost_formula_version": "calculated-request-cost-v1",
+      "calculated_request_cost_usd": "0.00000273",
+      "cost_completeness": "complete",
+      "cost_calculation_terms": [
+        {
+          "category": "standard_input",
+          "usage_path": "prompt_tokens minus separately priced cached/cache-write tokens",
+          "token_count": 39,
+          "rate_usd": "0.06",
+          "unit_tokens": 1000000,
+          "cost_usd": "0.00000234"
+        },
+        {
+          "category": "output",
+          "usage_path": "completion_tokens",
+          "token_count": 1,
+          "rate_usd": "0.39",
+          "unit_tokens": 1000000,
+          "cost_usd": "3.9E-7"
+        }
+      ],
+      "cost_unknown_reasons": []
+    },
+    {
+      "schema_version": "attempt_evidence.v3",
+      "attempt_id": "fixture-v2-attempt-model-b-5",
+      "run_id": "fixture-v2-run-model-b",
+      "issue_number": 5,
+      "dispatch_order": 4,
+      "attempt_purpose": "benchmark",
+      "request_messages": [
+        {
+          "role": "system",
+          "content": "Classify the issue as exactly one customer label."
+        },
+        {
+          "role": "user",
+          "content": "{\"title\":\"Authentication command hangs\",\"body\":\"Token validation hangs until the client deadline is reached.\"}"
+        }
+      ],
+      "request_messages_sha256": "c825a0353227152befc9f46d4c4479bc57e072029a82660726d9542b7b30a5d8",
+      "request_parameters": {
+        "temperature": 0,
+        "top_p": 1,
+        "n": 1,
+        "stream": false,
+        "max_output_tokens": 8
+      },
+      "eligible_at": "2026-08-20T12:00:01.255Z",
+      "request_started_at": "2026-08-20T12:00:01.257Z",
+      "request_ended_at": "2026-08-20T12:00:01.357Z",
+      "queue_wait_ms": 2,
+      "request_latency_ms": 100,
+      "configured_timeout_seconds": 30,
+      "provider_outcome": "success",
+      "http_status": 200,
+      "provider_request_id": "fixture-v1-request-b-5",
+      "finish_reason": "stop",
+      "response_headers": {
+        "content-type": "application/json",
+        "x-request-id": "fixture-v1-request-b-5"
+      },
+      "raw_response": {
+        "id": "fixture-v1-response-b-5",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "security"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 1,
+          "total_tokens": 41
+        }
+      },
+      "raw_error": null,
+      "raw_model_output": "security",
+      "parsed_label": "security",
+      "parse_status": "exact",
+      "normalizations": [],
+      "scored_outcome": null,
+      "usable": true,
+      "usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 1,
+        "total_tokens": 41
+      },
+      "pricing_snapshot_id": "do-serverless-pricing-2026-08-30",
+      "cost_formula_version": "calculated-request-cost-v1",
+      "calculated_request_cost_usd": "0.00000279",
+      "cost_completeness": "complete",
+      "cost_calculation_terms": [
+        {
+          "category": "standard_input",
+          "usage_path": "prompt_tokens minus separately priced cached/cache-write tokens",
+          "token_count": 40,
+          "rate_usd": "0.06",
+          "unit_tokens": 1000000,
+          "cost_usd": "0.0000024"
+        },
+        {
+          "category": "output",
+          "usage_path": "completion_tokens",
+          "token_count": 1,
+          "rate_usd": "0.39",
+          "unit_tokens": 1000000,
+          "cost_usd": "3.9E-7"
+        }
+      ],
+      "cost_unknown_reasons": []
+    },
+    {
+      "schema_version": "attempt_evidence.v3",
+      "attempt_id": "fixture-v2-attempt-model-b-6",
+      "run_id": "fixture-v2-run-model-b",
+      "issue_number": 6,
+      "dispatch_order": 5,
+      "attempt_purpose": "benchmark",
+      "request_messages": [
+        {
+          "role": "system",
+          "content": "Classify the issue as exactly one customer label."
+        },
+        {
+          "role": "user",
+          "content": "{\"title\":\"Unexpected response from project command\",\"body\":\"The project command returns a free-form response that is not actionable.\"}"
+        }
+      ],
+      "request_messages_sha256": "3840b100f38f491519d9da867e723bb54e068aa15f44ec5edd0c706d97e047d2",
+      "request_parameters": {
+        "temperature": 0,
+        "top_p": 1,
+        "n": 1,
+        "stream": false,
+        "max_output_tokens": 8
+      },
+      "eligible_at": "2026-08-20T12:00:01.360Z",
+      "request_started_at": "2026-08-20T12:00:01.362Z",
+      "request_ended_at": "2026-08-20T12:00:01.417Z",
+      "queue_wait_ms": 2,
+      "request_latency_ms": 55,
+      "configured_timeout_seconds": 30,
+      "provider_outcome": "success",
+      "http_status": 200,
+      "provider_request_id": "fixture-v1-request-b-6",
+      "finish_reason": "stop",
+      "response_headers": {
+        "content-type": "application/json",
+        "x-request-id": "fixture-v1-request-b-6"
+      },
+      "raw_response": {
+        "id": "fixture-v1-response-b-6",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "maybe"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 41,
+          "completion_tokens": 1,
+          "total_tokens": 42
+        }
+      },
+      "raw_error": null,
+      "raw_model_output": "maybe",
+      "parsed_label": null,
+      "parse_status": "invalid",
+      "normalizations": [],
+      "scored_outcome": null,
+      "usable": false,
+      "usage": {
+        "prompt_tokens": 41,
+        "completion_tokens": 1,
+        "total_tokens": 42
+      },
+      "pricing_snapshot_id": "do-serverless-pricing-2026-08-30",
+      "cost_formula_version": "calculated-request-cost-v1",
+      "calculated_request_cost_usd": "0.00000285",
+      "cost_completeness": "complete",
+      "cost_calculation_terms": [
+        {
+          "category": "standard_input",
+          "usage_path": "prompt_tokens minus separately priced cached/cache-write tokens",
+          "token_count": 41,
+          "rate_usd": "0.06",
+          "unit_tokens": 1000000,
+          "cost_usd": "0.00000246"
+        },
+        {
+          "category": "output",
+          "usage_path": "completion_tokens",
+          "token_count": 1,
+          "rate_usd": "0.39",
+          "unit_tokens": 1000000,
+          "cost_usd": "3.9E-7"
+        }
+      ],
+      "cost_unknown_reasons": []
+    },
+    {
+      "schema_version": "attempt_evidence.v3",
+      "attempt_id": "fixture-v2-attempt-model-b-7",
+      "run_id": "fixture-v2-run-model-b",
+      "issue_number": 7,
+      "dispatch_order": 6,
+      "attempt_purpose": "benchmark",
+      "request_messages": [
+        {
+          "role": "system",
+          "content": "Classify the issue as exactly one customer label."
+        },
+        {
+          "role": "user",
+          "content": "{\"title\":\"Requests stall behind a proxy\",\"body\":\"The command stalls behind a corporate proxy and never returns a response.\"}"
+        }
+      ],
+      "request_messages_sha256": "5c4ada9f9f4d57a2b27b0d459343edfa766f69de9d41fccc1ff9f5e32f915562",
+      "request_parameters": {
+        "temperature": 0,
+        "top_p": 1,
+        "n": 1,
+        "stream": false,
+        "max_output_tokens": 8
+      },
+      "eligible_at": "2026-08-20T12:00:01.420Z",
+      "request_started_at": "2026-08-20T12:00:01.422Z",
+      "request_ended_at": "2026-08-20T12:00:31.422Z",
+      "queue_wait_ms": 2,
+      "request_latency_ms": 30000,
+      "configured_timeout_seconds": 30,
+      "provider_outcome": "timeout",
+      "http_status": null,
+      "provider_request_id": null,
+      "finish_reason": null,
+      "response_headers": {},
+      "raw_response": null,
+      "raw_error": {
+        "type": "timeout",
+        "message": "Fixture request reached the configured timeout."
+      },
+      "raw_model_output": null,
+      "parsed_label": null,
+      "parse_status": "invalid",
+      "normalizations": [],
+      "scored_outcome": null,
+      "usable": false,
+      "usage": {},
+      "pricing_snapshot_id": "do-serverless-pricing-2026-08-30",
+      "cost_formula_version": "calculated-request-cost-v1",
+      "calculated_request_cost_usd": null,
+      "cost_completeness": "unknown",
+      "cost_calculation_terms": [
+        {
+          "category": "standard_input",
+          "usage_path": "prompt_tokens minus separately priced cached/cache-write tokens",
+          "token_count": 0,
+          "rate_usd": "0.06",
+          "unit_tokens": 1000000,
+          "cost_usd": "0.00"
+        },
+        {
+          "category": "output",
+          "usage_path": "completion_tokens",
+          "token_count": 0,
+          "rate_usd": "0.39",
+          "unit_tokens": 1000000,
+          "cost_usd": "0.00"
+        }
+      ],
+      "cost_unknown_reasons": [
+        "missing prompt_tokens",
+        "missing completion_tokens"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "schema_version": "shared_generation_configuration.v1",
+  "configuration_version": "shared-generation-development-v3-timeboxed",
+  "temperature": 0,
+  "n": 1,
+  "stream": false,
+  "tools_enabled": false,
+  "max_completion_tokens": 4096
+}
