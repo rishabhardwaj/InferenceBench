@@ -10,6 +10,7 @@
 __pycache__/
 *.py[cod]
 *.md
+!docs/label-rubric-v1.md
 !README.md
 *.log
 DigitalOcean FDE Evaluation Exercise _ Agentic AI.pdf

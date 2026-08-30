@@ -10,6 +10,8 @@ COPY README.md ./
 COPY src ./src
 COPY app.py ./
 COPY artifacts ./artifacts
+COPY docs/label-rubric-v1.md ./docs/label-rubric-v1.md
+
 
 RUN python -m pip install --no-cache-dir .
 

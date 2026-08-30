@@ -5,6 +5,7 @@ from pathlib import Path
 
 from inferencebench.artifacts import ArtifactIntegrityError, canonical_sha256, sha256_file
 from inferencebench.domain import Issue, RequestMessage
+from inferencebench.config import PROJECT_ROOT
 from inferencebench.inference.domain import (
     PreparedClassificationRequest,
     SharedGenerationConfiguration,
@@ -13,7 +14,6 @@ from inferencebench.inference.domain import (
 )
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[3]
 DEFAULT_CONTRACT_DIRECTORY = PROJECT_ROOT / "artifacts" / "prompts" / "development-v1"
 
 
@@ -25,7 +25,7 @@ def load_shared_inference_contract(
     )
     system_path = directory / manifest.system_message_file
     generation_path = directory / manifest.generation_configuration_file
-    rubric_path = PROJECT_ROOT / manifest.rubric_file
+    rubric_path = directory.parents[2] / manifest.rubric_file
     _verify_hash(system_path, manifest.system_message_sha256)
     _verify_hash(generation_path, manifest.generation_configuration_sha256)
     _verify_hash(rubric_path, manifest.rubric_sha256)
